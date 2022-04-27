@@ -409,6 +409,11 @@ function template_body_below()
 
 	// Show the "Powered by" and "Valid" logos, as well as the copyright. Remember, the copyright must be somewhere!
 	echo '
+	<div style="text-align: center;">
+	  <img src="./Themes/cn_blanko_fes/images/northstar.gif"></img>
+		<br>
+		<img src="./Themes/cn_blanko_fes/images/img110.gif"></img>
+	</div>
 	<footer><div class="container">
 		<ul class="social">';
 			if(!empty($settings['facebook_check']))
